@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,9 +9,11 @@
 <body>
     <main>
         <section>
-            <video controls preload="auto">
-                <source src="./Videos/JordanVuela.m4v#t=10,20">
-                <source src="./Videos/JordanVuela.mp4#t=10,20">
+            <video controls preload="auto"> <!--preload="auto" => Permite que el video se cargue-->
+                <!--Se pueden tener varios formatos para los diferentes navegadores-->
+                <!-- <source src="./Videos/JordanVuela.m4v#t=10,20"> -->
+                <!-- <source src="./Videos/JordanVuela.mp4"> Reproduce el video -->
+                <source src="./Videos/JordanVuela.mp4#t=10,20"> <!--Reproduce el video desde el segundo 10 hasta el 20-->
             </video>
         </section>
     </main>
