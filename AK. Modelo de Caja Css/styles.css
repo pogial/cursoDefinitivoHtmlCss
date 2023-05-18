@@ -1,6 +1,6 @@
 /*Resetear los estilos del Navegador*/
 * {
-    box-sizing: border-box;
+    box-sizing: border-box; /*Sume el padding con el width del elemento*/
     padding: 0;
     margin: 0;
 }

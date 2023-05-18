@@ -6,7 +6,7 @@
 }
 
 .main-nav__item {
-    display: inline-block;
+    display: inline-block; /*Organiza los elementos de la lista de forma horizontal*/
 }
 
 .main-nav__item a {
@@ -17,15 +17,15 @@
 }
 
 /*PseudoClases = Define el estilo de un estado especial de un elemento*/
-.main-nav__item a:hover {
+.main-nav__item a:hover { /*Cambia de color al posicionarse*/
     color: blue;
 }
 
-.main-nav__item a:active {
+.main-nav__item a:active { /*Cambia de color al estar activo*/
     color: red;
 }
 
 /*PseudoElementos = define el estilo de una parte especifica de un elemento*/
-.main-nav__item a::after {
+.main-nav__item a::after { /*Despues del elemento agregar el contenido*/
     content: " | ";
 }
