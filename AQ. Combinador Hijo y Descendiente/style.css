@@ -1,0 +1,7 @@
+div p { /*Aplicar Azul a todos los tag p que sean descendientes directos de un tag div */
+    color: blue;
+}
+
+div > p { /*Aplicar Rojo a todos los tag p que sean hijos directos de un tag div */
+    color: red;
+}

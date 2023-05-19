@@ -1,0 +1,3 @@
+h2 ~ p { /*Aplicar Rojo a todos los tag p que tengan hermano general un tag H2 */
+    color: red;
+}
