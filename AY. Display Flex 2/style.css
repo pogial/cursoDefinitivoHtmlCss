@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+.apunte {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.container {
+    border: 0.3rem solid black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; /*stretch baseline*/
+    height: 50vh;
+}
+
+.box {
+    /* width: 10rem; */
+    height: 10rem;
+    flex-basis: 10rem;
+    flex-grow: 1;
+}
+
+.box1 {
+    background-color: aqua;
+    order: 1; /*Ordena*/
+    flex-grow: 1; /*Crece hasta suplir lo que resta del contenedor*/
+}
+
+.box2 {
+    background-color: palevioletred;
+    order: 3;
+    flex-grow: 1;
+}
+
+.box3 {
+    background-color: blanchedalmond ;
+}
+
+.box4 {
+    background-color: royalblue;
+}
+
+.box5 {
+    background-color: palegreen;
+    order: 4;
+}
+
+.box6 {
+    background-color: pink;
+    order: 2;
+}
